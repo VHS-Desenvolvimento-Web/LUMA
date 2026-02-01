@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMA - Tradutor de Libras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asimovian&family=Bungee&family=Gravitas+One&family=Lexend:wght@100..900&
+    family=Outfit:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <label for="menu" class="icon">&#9776;</label>
+        <input type="checkbox" id="menu">
+
+        <p class="titulo">Luma</p>
+        <div class="items">
+            <a href="#meta" class="item">Metas</a>
+            <a href="#info" class="item">Informações</a>
+            <a href="#images" class="item">Fotos</a>
+            <a href="#equipe" class="item">Membros</a>
+            <a href="#" target="_blank" class="item">Portfólio</a>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="textbox">
+            <div class="sla">
+                <h1 class="sla2">LUMA</h1>
+                <h3 class="sla3">Mãos que falam, tecnologia que aproxima.</h3>
+            </div>
+            <img src="images/logo2.png">
+        </div>
+    </section>
+
+    <section class="meta" id="meta">
+        <div class="metas">
+            <details>
+                <summary>Proposta</summary>
+                <p>Criamos uma luva que traduz Libras em palavras para ajudar na comunicação entre surdos e ouvintes.
+                    Com
+                    tecnologia simples, queremos tornar a sociedade mais inclusiva, facilitando o diálogo na sociedade.
+                    Mostramos que é possível criar soluções que fazem a diferença.
+                </p>
+            </details>
+
+            <details>
+                <summary>Objetivo</summary>
+                <p>Com a LUMA, buscamos incentivar o aprendizado de Libras e aproximar diferentes formas de comunicação,
+                    criando uma ponte entre pessoas surdas e ouvintes. Nosso objetivo é usar a tecnologia para tornar o
+                    mundo mais acessível e inclusivo, unindo o conhecimento em eletrônica à vontade de desenvolver
+                    soluções
+                    que realmente transformem a vida das pessoas e promovam a compreensão mútua.
+                </p>
+            </details>
+
+            <details>
+                <summary>Método</summary>
+                <p>A metodologia do projeto envolveu pesquisa sobre Libras e suas representações gestuais, seleção de
+                    componentes eletrônicos, programação do sistema de reconhecimento de movimentos e testes iterativos
+                    para ajustar a precisão e a usabilidade do dispositivo. Com isso, o LUMA demonstra como a tecnologia
+                    pode aproximar pessoas, eliminar barreiras comunicativas e incentivar maior empatia e inclusão no
+                    dia a dia.
+                </p>
+            </details>
+
+            <details>
+                <summary>Desenvolver</summary>
+                <p>A LUMA foi criada utilizando uma placa Arduino, sensores flexíveis nos dedos e um módulo Bluetooth
+                    que
+                    envia os dados para um aplicativo.
+                    Os sensores captam os movimentos e a curvatura das mãos, e o Arduino processa essas informações para
+                    identificar cada gesto feito em Libras.
+                    Depois, o módulo Bluetooth transmite os dados para o aplicativo, que faz a tradução automática para
+                    texto ou áudio, tornando a comunicação acessível.
+                </p>
+            </details>
+        </div>
+    </section>
+
+    <section class="info" id="info">
+        <h1>Informações sobre o Projeto</h1>
+        <div class="quadrados">
+            <div class="quadrado">
+                <div class="sla4">
+                    <img src="images/cursor3.svg">
+                    <h2>Libras</h2>
+                </div>
+                <p>A Língua Brasileira de Sinais (Libras) é reconhecida oficialmente no Brasil pela Lei nº 10.436/2002
+                    e regulamentada pelo Decreto nº 5.626/2005 como o meio de comunicação e expressão da comunidade
+                    surda. Segundo Quadros e Karnopp (2004), trata-se de uma língua natural, com gramática própria e
+                    estrutura visual-espacial baseada em gestos, expressões faciais e uso do espaço. Diferente de
+                    simples mímicas, a Libras possui todos os níveis linguísticos — fonologia, morfologia, sintaxe e
+                    semântica — e é utilizada por mais de 10 milhões de brasileiros com algum grau de surdez, sendo
+                    essencial para a inclusão e a cidadania.</p>
+            </div>
+
+            <div class="quadrado">
+                <div class="sla4">
+                    <img src="images/cursor3.svg">
+                    <h2>Dados</h2>
+                </div>
+                <p>Ainda não existe um número exato e atualizado de quantas pessoas falam Libras no Brasil, mas
+                    estimativas indicam que apenas cerca de 2,3 milhões de pessoas usam Libras como principal meio de
+                    comunicação.
+                    Segundo o IBGE, existem mais de 10,7 milhões de brasileiros com algum tipo de deficiência auditiva,
+                    o que significa que a maioria das pessoas surdas não utiliza Libras.
+                    Isso acontece porque muitos surdos não tiveram acesso à educação bilíngue e acabam se comunicando de
+                    outras formas, como leitura labial ou fala oral.
+                    Além disso, há apenas cerca de 20 mil intérpretes de Libras no país, um número ainda pequeno diante
+                    da grande demanda.</p>
+            </div>
+
+            <div class="quadrado">
+                <div class="sla4">
+                    <img src="images/cursor3.svg">
+                    <h2>Arduino</h2>
+                </div>
+                <p>O Arduino é uma plataforma de prototipagem eletrônica de código aberto composta por hardware e
+                    software de fácil utilização. Segundo Banzi e Shiloh (2015), a plataforma foi projetada para
+                    permitir que estudantes, professores e desenvolvedores criem projetos interativos por meio da
+                    combinação de sensores, atuadores e um microcontrolador programável. Sua popularidade decorre da
+                    versatilidade, do baixo custo e da ampla comunidade de suporte, o que o torna ideal para projetos
+                    educacionais e assistivos.</p>
+            </div>
+        </div>
+
+        <div class="grafico">
+            <div class="sla4">
+                <img src="images/grafico.svg">
+                <h2>Gráfico</h2>
+            </div>
+            <div class="graficoimagem">
+                <img src="images/ibge-libras-surdez.png">
+            </div>
+        </div>
+    </section>
+
+    <div class="conjunto" id="images">
+        <h1>Galeria de imagens</h1>
+        <div class="containerimagens">
+            <div class="imagem" style="background-image: url('images/fundolglvazio2.png'); background-position: 70% 30%;">
+                <p>Clique para revelar a foto!</p>
+            </div>
+
+            <div class="imagem" style="background-image: url('images/fundolglvazio2.png');">
+                <p>Clique para revelar a foto!</p>
+            </div>
+
+            <div class="imagem" style="background-image: url('images/fundolglvazio2.png'); background-position: 70% 30%;">
+                <p>Clique para revelar a foto!</p>
+            </div>
+
+            <div class="imagem" style="background-image: url('images/fundolglvazio2.png');">
+                <p>Clique para revelar a foto!</p>
+            </div>
+
+            <div class="imagem" style="background-image: url('images/fundolglvazio2.png'); background-position: 30% 70%;">
+                <p>Clique para revelar a foto!</p>
+            </div>
+
+            <div class="imagem" style="background-image: url('images/fundolglvazio2.png'); background-position: 30% 70%;">
+                <p>Clique para revelar a foto!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="equipe" id="equipe">
+        <h1>Membros da Equipe</h1>
+        <div class="members">
+            <div class="member">
+                <img src="fotosmembros/blankprofile.jpg" class="foto">
+                <p>Pessoa 1</p>
+            </div>
+
+            <div class="member">
+                <img src="fotosmembros/blankprofile.jpg" class="foto">
+                <p>Pessoa 2</p>
+            </div>
+
+            <div class="member">
+                <img src="fotosmembros/blankprofile.jpg" class="foto">
+                <p>Pessoa 3</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="containerfooter">
+            <p><span>&copy;</span> 2025 LUMA. Todos os direitos reservados.</p>
+            <div class="redesfooter">
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://linktr.ee/" target="_blank" aria-label="Links"><i
+                        class="fa-solid fa-share-nodes"></i></a>
+                <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
